@@ -1,0 +1,31 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    background-color: #fff;
+}
+
+.nav_logo{
+    margin: 1rem;
+}
+
+.nav_logo:hover{
+    color: black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.nav_li{
+   margin: 1rem;
+}
+
+.nav_li > a{
+    color: green;
+    margin: 15px;
+}
+
+.nav_li > a:hover{
+    color: lightgreen;
+}
