@@ -1,5 +1,6 @@
 import React from 'react'
 import academicals from "../../assests/academicals.png"
+import {BiFootball} from "react-icons/bi"
 import "./header.css"
 
 const Header = () => {
@@ -19,6 +20,11 @@ const Header = () => {
       <div className='header-right'>
        <img src={academicals} alt="academicals"/>
       </div>
+      </div>
+      <div className='floating-icon'>
+        <a href='#features'>
+        <BiFootball  color='#fff' size={30} className="football"/>
+        </a>
       </div>
      </section>
   )
