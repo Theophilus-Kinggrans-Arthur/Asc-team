@@ -41,7 +41,18 @@ h1 span:nth-child(2), h1 span:nth-child(3){
 }
 
 .header-right img{
-    width: 90%;
+    width: 80%;
+    transform: translateX(-50%);
+    animation: bounce 0.9s ease infinite alternate;
+}
+
+@keyframes bounce {
+     0%{
+        transform: translateY(-25%);
+    }
+    100%{
+        transform: translateY(25%);
+    }
 }
 
 .header-btn{
@@ -73,15 +84,15 @@ h1 span:nth-child(2), h1 span:nth-child(3){
 }
 
 .football{
-    transform: translateY(-25%);
+    transform: translateY(-25px);
     animation: bounce 0.8s ease infinite alternate;
 }
 
 @keyframes bounce {
     0%{
-        transform: translateY(-25%);
+        transform: translateY(-25px);
     }
     100%{
-        transform: translateY(25%);
+        transform: translateY(25px);
     }
 }

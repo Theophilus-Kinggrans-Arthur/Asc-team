@@ -13,7 +13,7 @@ const Features = () => {
     <section id='features'>
      <div className='feature-container'>
          <h2>Our Team</h2>
-         <p>Football is </p>
+         <p>Football Is Our Talent and We can Do it </p>
      </div>
       <Carousel className="main-container" animation='slide'>
             <img  src={f1} height="500px" width="800px" alt="badges"/>

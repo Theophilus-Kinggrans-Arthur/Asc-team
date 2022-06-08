@@ -9,7 +9,13 @@
     justify-content: center;
     margin-top: 1rem;
     color: white;
+    text-decoration: underline;
 }
+
+.feature-container h2{
+    font-size: 30px;
+}
+
 
 .main-container{
     justify-content: center;
