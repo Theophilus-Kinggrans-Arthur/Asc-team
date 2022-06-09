@@ -85,7 +85,7 @@ h1 span:nth-child(2), h1 span:nth-child(3){
 
 .football{
     transform: translateY(-25px);
-    animation: bounce 0.8s ease infinite alternate;
+    animation: bounce 0.9s ease infinite alternate;
 }
 
 @keyframes bounce {
