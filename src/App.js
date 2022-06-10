@@ -4,6 +4,7 @@ import Features from './components/Features/Features';
 import Header from './components/Header/Header';
 import Matches from './components/MatchUpdate/Matches';
 import Navbar from './components/Navbar/Navbar';
+import Upcoming from './components/UpcominFitures/Upcoming';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Header />
      <Features />
      <Matches/>
+     <Upcoming />
     </main>
   );
 }

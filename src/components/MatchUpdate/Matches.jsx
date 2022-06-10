@@ -1,6 +1,7 @@
 import React from 'react'
 import {Card, ListGroup, ListGroupItem} from "react-bootstrap";
-import { Box } from '@material-ui/core';
+import jersey from "../../assests/jersey.png"
+import jersey2 from "../../assests/jersey2.png"
 import "./matches.css"
 
 const Matches = () => {
@@ -12,7 +13,7 @@ const Matches = () => {
      <div className='match-container'>
      <div className="container-left">
        <Card style={{ width: '15rem' , height: "20rem" }}>
-  <Card.Body>
+  <Card.Body className="card-title">
     <Card.Title>HOME LINE UP</Card.Title>
   </Card.Body>
   <ListGroup className="list-group-flush">
@@ -23,13 +24,21 @@ const Matches = () => {
 </Card>
      </div>
      <div className="container-center">
-       <h2>THE MATCH OF THE WEEK</h2>
+       <h2>SUNDAY   LIVE</h2>
        <h3>Jun 11 2022, Sat</h3>
        <h3> Time: 3:00pm</h3>
-       <div>
-         <Box>
-           <li>ACADEMICAS</li>
-         </Box>
+       <div className="container-box">
+           <div className='img-left'>
+           <img src={jersey} alt="academicas"/>
+           </div>
+          <h3>Academicas SC</h3>
+           <br/>
+           <h4>Vs</h4>
+           <br/>
+          <h3>Jesikal FC</h3>
+          <div className='img-right'>
+          <img src={jersey2} alt="jesikal" />
+          </div>
        </div>
      </div>
      <div className="container-right">

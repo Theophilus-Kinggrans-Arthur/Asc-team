@@ -19,5 +19,51 @@
 .match-container{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 3rem;
+}
+
+.container-left{
+    display: flex;
+    font-size: 25px;
+}
+
+.card-title{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.container-center{
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container-center h2{
+   text-decoration: underline;
+}
+.container-box{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+.container-box img{
+    width: 80%;
+}
+
+.img-left{
+    justify-items: left;
+    display: flex;
+}
+
+.img-right{
+    justify-content: right;
+    display: flex;
+}
+
+.container-right{
+    display: flex;
+    font-size: 25px;
 }
