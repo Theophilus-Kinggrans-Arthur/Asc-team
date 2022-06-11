@@ -8,10 +8,10 @@ const Navbar = () => {
             ACADEMICAS
         </div>
         <div className='nav_li'>
-            <a href='#'>features</a>
-            <a href='#'>matches</a>
-            <a href='#'>about</a>
-            <a href='#'>contact us</a>
+            <a href='#'>Features</a>
+            <a href='#'>Fixtures</a>
+            <a href='#'>About</a>
+            <a href='#'>Contact Us</a>
         </div>
     </div>
   )

@@ -10,6 +10,7 @@
     margin-top: 1rem;
     color: green;
     text-decoration: underline;
+    position: fixed;
 }
 
 .feature-container h2{

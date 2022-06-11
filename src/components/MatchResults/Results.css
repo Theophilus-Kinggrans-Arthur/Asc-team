@@ -1,10 +1,11 @@
-#upcoming{
-    background-color: green;
+#results{
+    background-color:white;
+    height: 60vh;
 }
 
 
 
-.about__cards {
+.result__cards {
   display: grid;
   flex-direction: row;
   grid-template-columns: repeat(3, 1fr);
@@ -39,28 +40,32 @@ h3{
   font-weight: 700;
 }
 
-.about__card {
-  background: white;
+.result__card {
+  background:black;
   border: 1px solid transparent;
   border-radius: 1rem;
+  color: white;
   padding: 2rem;
-  width: 46vw;
+  width: 89vw;
+  height: 35vh;
   text-align: center;
   transition:all 1s;
 }
 
-.about__card:hover {
+.result__card:hover {
   background: transparent;
-  border-color: white;
+  border-color: yellow;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 
 
-.about__card h5 {
+.result__card h5 {
   font-size: 0.95rem;
 }
 
-.about__card small {
+.result__card small {
   font-size: 0.9rem;
   color: var(--color-light);
 }
