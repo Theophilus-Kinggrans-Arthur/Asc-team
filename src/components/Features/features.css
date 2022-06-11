@@ -1,16 +1,13 @@
 #features{
     position: relative;
-    margin-bottom: auto;
     background-color: lightgreen;
 }
 
 .feature-container{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
     color: green;
     text-decoration: underline;
-    position: fixed;
 }
 
 .feature-container h2{

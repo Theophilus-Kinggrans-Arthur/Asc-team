@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Results from './components/MatchResults/Results';
 import Matches from './components/MatchUpdate/Matches';
 import Navbar from './components/Navbar/Navbar';
+import TeamTrophies from './components/TeamTrophies/[Team]Trophies';
 import Upcoming from './components/UpcominFitures/Upcoming';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Matches/>
      <Upcoming />
      <Results />
+     <TeamTrophies />
     </main>
   );
 }

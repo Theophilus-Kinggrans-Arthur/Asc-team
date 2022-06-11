@@ -1,0 +1,36 @@
+#teamtrophies{
+    height: 60vh;
+    background-color:black;
+    overflow: hidden;
+}
+
+.trophies{
+    align-items: center;
+    justify-content: center;
+}
+
+.trophies h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: green;
+}
+.trophy-community{
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.trophy-community p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trophy-community img{
+    width: 30%;
+    margin-bottom: 12px;
+}
+
+

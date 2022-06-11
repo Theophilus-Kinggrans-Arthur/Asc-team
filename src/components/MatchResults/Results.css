@@ -73,3 +73,16 @@ h3{
 .results-match h1{
     text-align: center;
 }
+
+/*====================== MEDIA QUERIS ( SMALL DEVICS) =================*/
+@media screen and (max-width: 600px) {
+
+  .result__card {
+    grid-template: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .results__content {
+    text-align: center;
+  }
+}

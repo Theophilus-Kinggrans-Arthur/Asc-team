@@ -68,3 +68,19 @@ h3{
 .upcoming-round h1{
   text-align: center;
 }
+
+
+
+/*====================== MEDIA QUERIS ( SMALL DEVICS) =================*/
+@media screen and (max-width: 600px) {
+
+
+  .about__card {
+    grid-template: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+}
