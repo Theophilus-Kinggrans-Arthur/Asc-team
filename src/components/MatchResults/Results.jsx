@@ -5,7 +5,9 @@ import "./Results.css"
 const Results = () => {
   return (
     <section id='results'>
+        <div className='results-match'>
       <h1>Our Match Results</h1>
+        </div>
 
         <div className="results__content">
           <Carousel  className='card-container' animation='slider'>
@@ -55,7 +57,9 @@ const Results = () => {
           </div>
           </Carousel>
         </div>
+        <div className='results-match'>
         <h1>LEAGUE : JUVENILE</h1>
+        </div>
     </section>
   )
 }

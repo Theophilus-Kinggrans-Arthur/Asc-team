@@ -55,7 +55,7 @@ h3{
 .result__card:hover {
   background: transparent;
   border-color: yellow;
-  background-color: black;
+  background-color: brown;
   color: white;
   cursor: pointer;
 }
@@ -70,8 +70,6 @@ h3{
   color: var(--color-light);
 }
 
-h1{
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: white;
+.results-match h1{
+    text-align: center;
 }

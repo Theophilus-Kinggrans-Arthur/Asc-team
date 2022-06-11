@@ -49,7 +49,9 @@ const Upcoming = () => {
           </div>
           </Carousel>
         </div>
+        <div className='upcoming-round'>
         <h1>LEAGUE : JUVENILE                 (ROUND ONE)</h1>
+        </div>
     </section>
   )
 }
