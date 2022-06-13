@@ -4,13 +4,13 @@
     color: green;
     font-size: 25px;
     padding: 5px 5px 5px 5px;
-    background-color: #fff;
+    background-color: black;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
-.navbar .menu-icons {
+.nav .menu-icons {
   display: none;
 }
 
