@@ -1,6 +1,8 @@
 
 import './App.css';
+import About from './components/about/About';
 import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Results from './components/MatchResults/Results';
 import Matches from './components/MatchUpdate/Matches';
@@ -18,6 +20,8 @@ function App() {
      <Upcoming />
      <Results />
      <TeamTrophies />
+     <About />
+     <Footer />
     </main>
   );
 }

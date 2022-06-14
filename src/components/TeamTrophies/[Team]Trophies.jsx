@@ -19,7 +19,7 @@ const TeamTrophies = () => {
         </div>
         <div className='trophy-community'>
             <h2>This trophy was won in the year 2016</h2>
-            <p>League: Inter Community Cup</p>
+            <p>League:NDC Inter Community Cup</p>
             <h3>Senior Team</h3>
             <img  src={trophy} height="300px" width="300px" alt="trophy"/>
         </div>

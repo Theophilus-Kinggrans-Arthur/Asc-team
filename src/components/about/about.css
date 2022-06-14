@@ -1,0 +1,68 @@
+#manager{
+    background-color: white;
+    position: relative;
+    height: 42vh;
+    overflow: hidden;
+}
+
+.asc{
+   justify-content: center;
+   align-items: center;
+}
+
+.asc > h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.manager{
+    justify-content: left;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.manager > h3{
+    align-items: flex-start;
+    text-align: left;
+}
+
+.manager-img{
+ justify-content: left;
+ align-items: flex-start;
+ display: flex;
+ margin: 20px;
+}
+
+img{
+    justify-items: left;
+    width: 10%;
+    height: 10%;
+    margin-right: 4rem;
+}
+
+.fairtale{
+    display: inline;
+    margin-top: 2rem;
+    margin-right: 11rem;
+}
+
+
+
+.fairtale > p:nth-child(2){
+   font-size: 20px;
+   font-style: oblique;
+   font-weight: 500;
+   margin-left: 40%;
+}
+
+.fairtale > p:nth-child(1){
+    font-style: oblique;
+    font-weight: 800;
+     margin-left: 40%;
+}
+
+.fairtale > p:last-child{
+     font-style: italic;
+    font-weight: 800;
+     margin-left: 40%;
+}

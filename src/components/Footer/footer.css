@@ -1,0 +1,42 @@
+#footer {
+  background: green;
+  color: #fff;
+  height: 30vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+  margin-top: 1rem;
+}
+
+.footer h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-size: 1.2rem;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.footer-box > img{
+    width: 10vw;
+    height: 15vh;
+}

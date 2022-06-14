@@ -12,38 +12,34 @@ const Upcoming = () => {
           <Carousel  className='card-container' animation='slider'>
           <div className="about__cards">
             <article className="about__card">
-              <h5>Sunday 11 June 2022</h5>
-              <small>1:00pm,Besease Primary Park</small>
-              <h4>Academica SC    vs   Jesikal</h4>
-            </article>
-            <article className="about__card">
-              <h5>Sunday 11 June 2022</h5>
+              <h5>Saturday 2 July 2022</h5>
               <small>2:00pm,Primary Park</small>
               <h4>Bafana FC  vs   Academicas SC</h4>
             </article>
             <article className="about__card">
-              <h5>Monday 12 June 2022</h5>
-              <small>1:00pm, Primary Park</small>
+              <h5>Sunday 10 July 2022</h5>
+              <small>1:00pm</small>
+              <small>U13 , U15 , U17</small>
               <h4>Academica SC    vs   Latitude</h4>
             </article>
             <article className="about__card">
-              <h5>Tuesday 13 June 2022</h5>
-              <small>1:00pm,Besease Primary Park</small>
+              <h5>Saturday 16 July 2022</h5>
+              <small>1:00pm</small>
               <h4>Young Fighters    vs   Academicas SC</h4>
             </article>
             <article className="about__card">
-              <h5>Wednesday 14 June 2022</h5>
-              <small>1:00pm,Besease Primary Park</small>
+              <h5>Sunday 24 July 2022</h5>
+              <small>1:00pm</small>
               <h4>Academica SC    vs   No Weapons</h4>
             </article>
             <article className="about__card">
-              <h5>Sunday 11 June 2022</h5>
-              <small>1:00pm,Besease Primary Park</small>
+              <h5>Sunday 30 July 2022</h5>
+              <small>1:00pm</small>
               <h4>Academica SC    vs   Terpor</h4>
             </article>
             <article className="about__card">
-              <h5>Sunday 11 June 2022</h5>
-              <small>1:00pm,Besease Primary Park</small>
+              <h5>Sunday 26 June 2022</h5>
+              <small>1:00pm</small>
               <h4>Academica SC    vs   Jesikal</h4>
             </article>
           </div>
