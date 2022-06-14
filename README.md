@@ -1,3 +1,5 @@
+npm run dev
+
 # Academicas team
 This website is for Kissi Academicas Sporting Club
 
