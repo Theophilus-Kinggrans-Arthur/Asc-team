@@ -18,8 +18,8 @@ const Navbar = () => {
             <a href='#features'>Features</a>
             <a href='#matches'>Fixtures</a>
             <a href='#teamtrophies'>Trophies</a>
-            <a href='#'>About</a>
-            <a href='#'>Contact Us</a>
+            <a href='#manager'>About</a>
+            <a href='#footer'>Contact Us</a>
         </div>
 
         <div className="menu-icons" onClick={toogleMenu}>

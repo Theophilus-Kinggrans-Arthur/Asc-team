@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="footer-box">
           <h4>Sponsors</h4>
           <div className="footer-links">
-            <a href="#">&bull; Future Hope Foundation</a>
+            <a href="#futurehope">&bull; Future Hope Foundation</a>
           </div>
         </div>
         <div className="footer-box">
           <h4>OUR WEB TECH LEAD</h4>
           <div className="footer-links">
-            <a href="#">&bull; Theophilus Kinggrans Arthur</a>
-            <a href="#">&bull; Ruth</a>
+            <a href="www.facebook.com">&bull; Theophilus Kinggrans Arthur</a>
+            <a href="www.facebook.com">&bull; Ruth</a>
           </div>
         </div>
         <div className="footer-box">
