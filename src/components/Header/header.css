@@ -103,3 +103,7 @@ h1 span:nth-child(2), h1 span:nth-child(3){
   }
 }
 
+@media screen and (max-width: 440px) {
+    
+}
+
