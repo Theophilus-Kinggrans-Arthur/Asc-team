@@ -103,6 +103,7 @@ h1 span:nth-child(2), h1 span:nth-child(3){
   }
 }
 
+/* Media Querry done by Ronald Kelechi */
 @media screen and (max-width: 440px) {
     
 }

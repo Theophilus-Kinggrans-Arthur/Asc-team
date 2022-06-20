@@ -17,15 +17,19 @@ const Header = () => {
            <button className='btn header-btn'>Know More</button>
          </div>
        </div>
+    
         <div className='header-right'>
        <img  src={academicals} alt="academicals"/>
       </div>
+
       </div>
+
       <div className='floating-icon'>
         <a href='#features'>
         <BiFootball  color='#fff' size={50} className="football"/>
         </a>
       </div>
+
      </section>
   )
 }
