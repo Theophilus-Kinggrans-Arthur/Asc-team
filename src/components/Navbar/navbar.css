@@ -42,8 +42,9 @@
 
 
 
-/* The media Query section */
+/* The media Query section please un-comment the font import section i have the fonts locally installed that's why i commented it*/
 @media screen and (max-width:440px){
+
    /* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
 
    /* For design reasons i removed the link's for this Layout*/
@@ -70,6 +71,7 @@
         align-self: center;
         margin: 0px;
         font-size: 28px;
+        font-weight: bold;
         font-family: "Poppins";
         height: 40px;
         padding-left: 5px;

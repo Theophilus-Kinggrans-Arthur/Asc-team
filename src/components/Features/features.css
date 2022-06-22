@@ -1,4 +1,5 @@
 #features{
+    padding: 10px;
     position: relative;
     background-color: lightgreen;
 }
@@ -25,5 +26,46 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+   
+}
+
+
+@media screen and (max-width:440px) {
+
+    /* Im having issues here cause the images are refusing to resize*/
+    #features{
+        padding: 10px;
+        position: relative;
+        background-color: lightgreen;
+    }
+    
+    .feature-container{
+        display: flex;
+        justify-content: center;
+        color: green;
+        text-decoration: none;
+    }
+    
+    .feature-container h2{     
+        font-size: 40px;
+        font-family: 'Poppins';
+    }
+   
+    
+    
+    .main-container{
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2%;
+        width: 440px;
+        height:auto;
+    }
+    
+    .main-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
 }
