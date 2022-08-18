@@ -1,4 +1,9 @@
+*{
+    margin: 7px;
+
+}
 #header{
+    padding: 10px;
     position: relative;
     height: 80vh;
 }
@@ -101,5 +106,149 @@ h1 span:nth-child(2), h1 span:nth-child(3){
   .header h1 {
     font-size: 3rem;
   }
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Querry done by Ronald Kelechi */
+@media screen and (max-width: 440px) {
+    *{
+        margin: 0px;
+        padding: 7px;
+    }
+    
+#header{
+    padding: 10px;
+    position: relative;
+    height: max-content;
+}
+
+.header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header h1{
+    padding: 0px;
+    margin: 5px;
+}
+.header  .welcome{
+  width: auto;
+  font-family: 'Righteous';
+  font-size: 3rem;
+  color: white;
+  line-height: 1.4;
+  text-transform: uppercase;
+  position: relative;
+}
+.header  .sporting{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    color: white;
+    line-height: 1.4;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .header  .motto{
+    width: max-content;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    color: white;
+    text-decoration: dashed;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+    position: relative;
+  }
+.header h1 span{
+    display: block;
+}
+
+h1 span:nth-child(1){
+    font-weight: 800;
+}
+
+h1 span:nth-child(2), h1 span:nth-child(3){
+    font-weight: 100;
+}
+
+.header h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 65%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.header-right img{
+    margin-top: 20px;
+    width: 80%;
+    transform: translateX(-10%);
+    animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+     0%{
+        transform: translateY(-25%);
+    }
+    100%{
+        transform: translateY(25%);
+    }
+}
+
+.header-btn{
+    margin: px;
+    padding: 5px;
+    border-color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+    color: green;
+}
+
+.header-btn:hover{
+    background-color: greenyellow;
+}
+
+.floating-icon{
+    background-color: green;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 10;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.football{
+    transform: translateY(-25px);
+    animation: bounce 0.9s ease infinite alternate;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(25px);
+    }
+}
 }
 

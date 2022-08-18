@@ -14,6 +14,8 @@ const Navbar = () => {
         <div className='nav_logo'>
             ACADEMICAS
         </div>
+
+
         <div className='nav_li'  id={showMenu ? "nav-li-mobile" : "nav-li-mobile-hide"}>
             <a href='#features'>Features</a>
             <a href='#matches'>Fixtures</a>
@@ -21,6 +23,7 @@ const Navbar = () => {
             <a href='#manager'>About</a>
             <a href='#footer'>Contact Us</a>
         </div>
+
 
         <div className="menu-icons" onClick={toogleMenu}>
         {showMenu ? (

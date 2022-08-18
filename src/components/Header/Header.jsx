@@ -9,23 +9,27 @@ const Header = () => {
       <div className='container header'>
        <div className='header-left'>
          <h1>
-           <span>WELCOME TO ACADEMICAS</span>
-           <span>SPORTING CLUB</span>
-           <span>MOTTO: Os ESTUDANTE</span>
+           <span className='welcome'>WELCOME TO ACADEMICAS</span>
+           <span className='sporting'>SPORTING CLUB</span>
+           <span className='motto'>MOTTO: Os ESTUDANTE</span>
          </h1>
          <div className='header-cta'>
            <button className='btn header-btn'>Know More</button>
          </div>
        </div>
+    
         <div className='header-right'>
        <img  src={academicals} alt="academicals"/>
       </div>
+
       </div>
+
       <div className='floating-icon'>
         <a href='#features'>
         <BiFootball  color='#fff' size={50} className="football"/>
         </a>
       </div>
+
      </section>
   )
 }
